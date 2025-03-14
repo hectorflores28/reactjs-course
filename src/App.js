@@ -8,6 +8,8 @@ function App() {
     <section>
       <h1>Hola Mundo!</h1>
       <Card title="Card 1" description="Description 1" />
+      <Card title="Card 2" description="Description 2" />
+      <Card title="Card 3" description="Description 3" />
       <ul>
       {
         items.map((item, index) => (
