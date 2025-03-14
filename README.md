@@ -1,3 +1,3 @@
 # ReactJS
 
-![Foto](.public/screenshot.png)
+![Foto](public/screenshot.png)
