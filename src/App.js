@@ -8,7 +8,6 @@ function App() {
     <section>
       <Card title="Card 1" description="Description 1" />
       <Card title="Card 2" description="Description 2" />
-      <Card title="Card 3" description="Description 3" />
       <Counter />
     </section>
   );
