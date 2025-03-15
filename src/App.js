@@ -1,13 +1,14 @@
 import './App.css';
 import Card from './components/Card.jsx'
 import Counter from './components/Counter.jsx'
+import NameForm from './components/NameForm.jsx';
 
 function App() {
 
   return (
     <section>
+      <NameForm />
       <Card title="Card 1" description="Description 1" />
-      <Card title="Card 2" description="Description 2" />
       <Counter />
     </section>
   );
