@@ -1,8 +1,13 @@
 // import styles from './Card.module.scss'
 
 const Card = () => {
+    const textStyles = {
+        color: "blue",
+        fontSize: "2rem",
+        textAlign: "center",
+    }
     return (
-        <div style={{ color: "blue", fontSize: "20px", border: "2px solid grey" }}>
+        <div style={ textStyles }>
             Soy una card !
         </div>
     )
