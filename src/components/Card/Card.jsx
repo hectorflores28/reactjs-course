@@ -2,7 +2,7 @@
 
 const Card = () => {
     return (
-        <div style={{ color: "blue", fontSize: "20px" }}>
+        <div style={{ color: "blue", fontSize: "20px", border: "2px solid grey" }}>
             Soy una card !
         </div>
     )
