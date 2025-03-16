@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const UserList = () => {
+const UserListWithLoading = () => {
     const [users, setUsers] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -33,11 +33,11 @@ const UserList = () => {
 
     return (
         <ul>
-                 {users.map((user,) => (
+                 {users.map((user) => (
                     <li key={user.id}>{user.name}</li>
             ))}
         </ul>
     );
 }
 
-export default UserList;
+export default UserListWithLoading;
