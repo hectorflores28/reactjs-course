@@ -15,7 +15,6 @@ function App() {
         <div className="bg-white p-6 rounded-xl shadow-sm grid gap-4">
           <CounterWithEffect />
 
-          <SearchPosts/>
           
           <div className="flex gap-3 justify-end">
             <Button variant="blue" className="px-5 py-2 text-sm">
@@ -24,6 +23,7 @@ function App() {
             <Button variant="outline" className="px-5 py-2 text-sm">
               Cancelar
             </Button>
+          <SearchPosts/>
           </div>
         </div>
       </div>
