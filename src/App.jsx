@@ -1,4 +1,5 @@
 import Button from './components/Button/Button.jsx'
+import StaticComponent from './components/StaticComponent.jsx'
 import Counter from './components/Counter.jsx'
 import CounterWithEffect from './components/CounterWithEffect.jsx'
 import NameForm from './components/NameForm.jsx'
@@ -12,6 +13,8 @@ function App() {
         <div className="bg-white p-6 rounded-xl shadow-sm grid gap-4">
           <CounterWithEffect />
           <Counter />
+
+          <StaticComponent />
           
           <div className="flex gap-3 justify-end">
             <Button variant="blue" className="px-5 py-2 text-sm">
