@@ -1,5 +1,6 @@
 import './App.css';
-import Card from './components/Card.jsx'
+// import Card from './components/Card.jsx'
+import Card from './components/Card/Card.jsx'
 import Counter from './components/Counter.jsx'
 import CounterWithEffect from './components/CounterWIthEffect.jsx';
 import NameForm from './components/NameForm.jsx';
