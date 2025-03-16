@@ -1,8 +1,8 @@
-import styles from './Card.module.scss'
+// import styles from './Card.module.scss'
 
 const Card = () => {
     return (
-        <div className={styles.borde}>
+        <div style={{ color: "blue", fontSize: "20px" }}>
             Soy una card !
         </div>
     )
